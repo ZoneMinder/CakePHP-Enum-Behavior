@@ -8,6 +8,12 @@ CakePHP does not support MySQL's `Enum` fields types. I've commed around 3 solut
 
 This behavior is using an other approach, it stores the configuration in an array which is fast and flexible. It also creates validation rules and the select lists.
 
+Version notice
+--------------
+
+This fork has been patched for compatibilty with the [ZoneMinder](https://github.com/ZoneMinder/ZoneMinder) project. 
+This fork will no longer be necessary once [Pull Reqeust #8](https://github.com/asper/CakePHP-Enum-Behavior/pull/8) has been merged.
+
 Installation
 ------------
 
